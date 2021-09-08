@@ -1,4 +1,4 @@
-apiVersion: apps/v2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: gra-deployment
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: gra-deployment
-        image: d4wid3k/tetris
+        image: d4wid3k/tetris2
         ports:
          - containerPort: 9090
